@@ -1,0 +1,77 @@
+.ask-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ask-container h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.ask-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ask-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.ask-form input,
+.ask-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.ask-form input:focus,
+.ask-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.2);
+}
+
+.ask-form textarea {
+  min-height: 140px;
+}
+
+.ask-form .submit-btn {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ask-form .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.quill-editor {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.quill-editor .ql-container {
+  border-radius: 6px;
+  min-height: 150px;
+}
+
+.quill-editor .ql-toolbar {
+  border-radius: 6px 6px 0 0;
+}
