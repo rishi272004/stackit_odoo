@@ -81,6 +81,10 @@ const HomePage = () => {
 
   const filteredQuestions = getFiltered();
 
+  const handleQuestionClick = () => {
+  navigate('/question');
+};
+
   return (
     <div className="homepage">
       <div className="header">
@@ -122,8 +126,8 @@ const HomePage = () => {
         />
         <button className="login">Login</button>
       </div>
+      <QuestionList questions={filteredQuestions} onQuestionClick={handleQuestionClick} />
 
-      <QuestionList questions={filteredQuestions} />
 
       <div className="pagination">
         <button disabled={currentPage === 1} onClick={() => setCurrentPage(prev => prev - 1)}>{'<'}</button>

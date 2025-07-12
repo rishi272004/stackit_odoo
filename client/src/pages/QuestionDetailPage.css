@@ -1,0 +1,50 @@
+.question-detail-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.breadcrumb {
+  cursor: pointer;
+  color: #007bff;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.tags {
+  margin: 10px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #eee;
+  padding: 4px 8px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.answer {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.answer button {
+  margin: 0 5px;
+}
+
+.submit-answer textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.submit-answer button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

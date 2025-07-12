@@ -6,6 +6,7 @@ import QuestionPage from './pages/QuestionPage';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
+import QuestionDetailPage from './pages/QuestionDetailPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/ask" element={<AskQuestionPage />} />
         <Route path="/question/:id" element={<QuestionPage />} />
+        <Route path="/question" element={<QuestionDetailPage />} />
       </Routes>
       <ToastContainer position="top-right" autoClose={3000} />
     </Router>
